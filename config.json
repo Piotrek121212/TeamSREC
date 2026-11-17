@@ -1,0 +1,190 @@
+{
+  "output_dir": "C:/Users/polom/Documents/TeamsRec/recordings",
+  "ics_file": "C:/Users/polom/Downloads/u195091.ics",
+  "only_remote_classes": true,
+  "remote_location_keywords": [
+    "budynek sal wirtualnych",
+    "w_0rbi",
+    "wirtualn",
+    "zdaln",
+    "teams",
+    "online"
+  ],
+  "folder_structure": "{course}/{date}",
+  "filename_template": "{date}_{time}_{course}_{title}",
+  "audio": {
+    "record_loopback": true,
+    "record_microphone": true,
+    "format": "mp3",
+    "mp3_bitrate": "192k",
+    "loopback_volume": 1.0,
+    "mic_volume": 1.0,
+    "keep_raw_wav": false
+  },
+  "detection": {
+    "poll_interval_seconds": 3,
+    "start_debounce_seconds": 6,
+    "stop_grace_period_seconds": 20,
+    "min_recording_seconds": 5,
+    "schedule_buffer_minutes": 20,
+    "use_window_title_as_course_fallback": true,
+    "detect_browser_teams": true,
+    "require_audio_or_mic_for_browser": true
+  },
+  "courses": [
+    {
+      "name": "Teoria_bezpieczenstwa",
+      "display_name": "Teoria bezpieczeństwa",
+      "keywords": [
+        "teoria bezpieczeństwa",
+        "teoria bezpieczenstwa"
+      ],
+      "schedule": [
+        {
+          "day": "monday",
+          "start": "14:45",
+          "end": "16:15",
+          "type": "A - Ćwiczenia audytoryjne (Zdalne)"
+        },
+        {
+          "day": "friday",
+          "start": "08:00",
+          "end": "08:45",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Matematyka_dyskretna",
+      "display_name": "Matematyka dyskretna",
+      "keywords": [
+        "matematyka dyskretna",
+        "w - matematyka dyskretna"
+      ],
+      "schedule": [
+        {
+          "day": "monday",
+          "start": "17:00",
+          "end": "18:30",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Teoretyczne_podstawy_informatyki",
+      "display_name": "Teoretyczne podstawy informatyki",
+      "keywords": [
+        "teoretyczne podstawy informatyki",
+        "tpi"
+      ],
+      "schedule": [
+        {
+          "day": "tuesday",
+          "start": "14:30",
+          "end": "16:00",
+          "type": "A - Ćwiczenia audytoryjne (Zdalne)"
+        },
+        {
+          "day": "tuesday",
+          "start": "17:30",
+          "end": "19:00",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Wstep_do_cyberbezpieczenstwa",
+      "display_name": "Wstęp do cyberbezpieczeństwa",
+      "keywords": [
+        "wstęp do cyberbezpieczeństwa",
+        "wstep do cyberbezpieczenstwa",
+        "cyberbezpieczeństwa",
+        "cyberbezpieczenstwa"
+      ],
+      "schedule": [
+        {
+          "day": "wednesday",
+          "start": "15:45",
+          "end": "17:15",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Podstawy_przedsiebiorczosci",
+      "display_name": "Podstawy przedsiębiorczości",
+      "keywords": [
+        "podstawy przedsiębiorczości",
+        "podstawy przedsiebiorczosci",
+        "przedsiębiorczości",
+        "przedsiebiorczosci"
+      ],
+      "schedule": [
+        {
+          "day": "wednesday",
+          "start": "17:15",
+          "end": "18:45",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Jezyki_skryptowe",
+      "display_name": "Języki skryptowe",
+      "keywords": [
+        "języki skryptowe",
+        "jezyki skryptowe",
+        "w - języki skryptowe"
+      ],
+      "schedule": [
+        {
+          "day": "wednesday",
+          "start": "19:00",
+          "end": "20:30",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Programowanie",
+      "display_name": "Programowanie",
+      "keywords": [
+        "w - programowanie",
+        "programowanie"
+      ],
+      "schedule": [
+        {
+          "day": "friday",
+          "start": "09:45",
+          "end": "11:15",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    },
+    {
+      "name": "Wyklad_humanistyczny_spoleczny",
+      "display_name": "Wykład z zakresu nauk humanistycznych lub społecznych",
+      "keywords": [
+        "wykład z zakresu nauk humanistycznych",
+        "wyklad z zakresu nauk humanistycznych",
+        "nauk humanistycznych lub społecznych",
+        "humanistycznych"
+      ],
+      "schedule": [
+        {
+          "day": "friday",
+          "start": "11:30",
+          "end": "13:00",
+          "type": "W - Wykład (Zdalne)"
+        }
+      ]
+    }
+  ],
+  "session_overrides": {
+    "2026-11-17_17:30": {
+      "course_folder": "Teoretyczne_podstawy_informatyki",
+      "note": "",
+      "cancelled": false
+    }
+  }
+}
